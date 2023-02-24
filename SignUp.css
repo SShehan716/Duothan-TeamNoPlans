@@ -13,7 +13,7 @@ body
 	align-items: center;
 	min-height: 100vh;
 	flex-direction: column;
-	background: #23242a;
+	background: url(1111.png);
 }
 .box 
 {
@@ -68,7 +68,7 @@ form
 {
 	position: absolute;
 	inset: 2px;
-	background: #28292d;
+	background: #00262D;
 	padding: 50px 40px;
 	border-radius: 8px;
 	z-index: 2;
@@ -77,7 +77,7 @@ form
 }
 h2 
 {
-	color: #45f3ff;
+	color: #fff;
 	font-weight: 500;
 	text-align: center;
 	letter-spacing: 0.1em;
@@ -128,7 +128,7 @@ h2
 	bottom: 0;
 	width: 100%;
 	height: 2px;
-	background: #45f3ff;
+	background: #fff;
 	border-radius: 4px;
 	overflow: hidden;
 	transition: 0.5s;
@@ -162,7 +162,7 @@ input[type="submit"]
 	border: none;
 	outline: none;
 	padding: 11px 25px;
-	background: #45f3ff;
+	background: #fff;
 	cursor: pointer;
 	border-radius: 4px;
 	font-weight: 600;

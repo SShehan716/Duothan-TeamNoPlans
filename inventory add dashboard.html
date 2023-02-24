@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <meta charset="UTF-8">
@@ -26,10 +26,10 @@
 
             <li>
                 <a href="#">
-                        <span class="icon">
-                            <ion-icon name="home-outline"></ion-icon>
-                        </span>
-                    <span class="title">Dashboard</span>
+                    <span class="icon">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </span>
+                    <span class="title">Home(Inventory)</span>
                 </a>
             </li>
 
@@ -80,14 +80,16 @@
 
             <li>
                 <a href="#">
-                        <span class="icon">
-                            <ion-icon name="log-out-outline"></ion-icon>
-                        </span>
+                    <span class="icon">
+                        <ion-icon name="log-out-outline"></ion-icon>
+                    </span>
                     <span class="title">Sign Out</span>
                 </a>
             </li>
         </ul>
     </div>
+
+            
 
     <!-- ========================= Main ==================== -->
     <div class="main">
@@ -107,6 +109,36 @@
                 <img src="assets/imgs/customer01.jpg" alt="">
             </div>
         </div>
+        <div>
+            <form id="survey-form">
+                <div class="form-group">
+                    <label id="name-label" for="name">Drug Name
+                        <input type="text" id="name" placeholder="Enter Drug Name" required>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label id="manufacturer-label" for="name">Manufacturer
+                        <input type="text" id="email" placeholder="Enter Manufacturer" required>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label id="supplier-label" for="name">Supplier
+                        <input type="text" id="supplier" placeholder="Enter Manufacturer" required>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label id="eDate-label">Expire Date
+                        <input type="date" id="eDate" placeholder="Select Date" required>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label id="price-label" >Unit Price
+                        <input type="text" id="price" placeholder="Unit Price" required>
+                    </label>
+                </div>
+
+
+            </form>
         </div>
     </div>
 </div>
