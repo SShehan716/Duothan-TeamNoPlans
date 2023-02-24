@@ -15,12 +15,22 @@ body
 	flex-direction: column;
 	background: #23242a;
 }
+.box-1{
+	position: absolute;
+width: 800px;
+height: 100vh;
+left: -85px;
+top: 0px;
+
+background: url(juhgui.png);
+border-radius: 80px;
+}
 .box 
 {
-	position: relative;
+	position: absolute;
 	width: 380px;
 	height: 420px;
-	
+	right: 200px;
 	background: #1c1c1c;
 	border-radius: 8px;
 	overflow: hidden;
