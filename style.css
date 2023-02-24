@@ -26,6 +26,16 @@ top: 0px;
 background: url(juhgui.png);
 border-radius: 80px;
 }
+.box-img{
+	position: absolute;
+width: 908px;
+height: 1027px;
+left: -85px;
+top: 0px;
+
+background: url(juhgui.png);
+border-radius: 80px;
+}
 .box 
 {
 	position: absolute;

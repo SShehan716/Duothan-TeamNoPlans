@@ -48,10 +48,6 @@ body {
   width: 100%;
 }
 
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 .navigation ul li {
   position: relative;
   width: 100%;
@@ -214,10 +210,6 @@ body {
   object-fit: cover;
 }
 
-<<<<<<< Updated upstream
-
-
-=======
 /* ======================= Cards ====================== */
 .cardBox {
   position: relative;
@@ -267,7 +259,6 @@ body {
 }
 
 /* ================== Order Details List ============== */
->>>>>>> Stashed changes
 .details {
   position: relative;
   width: 100%;
@@ -337,11 +328,6 @@ body {
 .details .recentOrders table tr td:nth-child(3) {
   text-align: center;
 }
-<<<<<<< Updated upstream
-
-
-
-=======
 .status.delivered {
   padding: 2px 4px;
   background: #8de02c;
@@ -418,7 +404,6 @@ body {
 .recentCustomers table tr:hover td h4 span {
   color: var(--white);
 }
->>>>>>> Stashed changes
 
 /* ====================== Responsive Design ========================== */
 @media (max-width: 991px) {
